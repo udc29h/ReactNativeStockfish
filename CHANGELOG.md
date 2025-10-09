@@ -1,6 +1,10 @@
+# 0.3.3
+
+New attempt to fix library for IOS.
+
 # 0.3.2
 
-Fix library for IOS. (credits to thgank)
+Attempt to fix library for IOS. (credits to thgank)
 
 # 0.3.1
 
