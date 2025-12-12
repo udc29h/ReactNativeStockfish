@@ -29,7 +29,7 @@ class ReactNativeStockfishModule(reactContext: ReactApplicationContext) :
   }
 
   override fun stockfishLoop() {
-    val delayTimeMs = 100L
+    val delayTimeMs = 15L
     mainCoroutineScope.launch { 
       delay(delayTimeMs)
       main()
@@ -49,7 +49,6 @@ class ReactNativeStockfishModule(reactContext: ReactApplicationContext) :
         reactApplicationContext
           .getJSModule(DeviceEventManagerModule.RCTDeviceEventEmitter::class.java)
           .emit("stockfish-output", output)
-        delay(delayTimeMs)
       }
     }
     errorReaderCoroutineScope.launch {
@@ -67,7 +66,6 @@ class ReactNativeStockfishModule(reactContext: ReactApplicationContext) :
         reactApplicationContext
           .getJSModule(DeviceEventManagerModule.RCTDeviceEventEmitter::class.java)
           .emit("stockfish-error", output)
-        delay(delayTimeMs)
       }
     }
   }
