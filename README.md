@@ -1,11 +1,11 @@
-# @loloof64/react-native-stockfish
+# @udaychauhan/react-native-stockfish
 
 Use stockfish chess engine in your React Native application.
 
 ## Installation
 
 ```sh
-npm install @loloof64/react-native-stockfish
+npm install @udaychauhan/react-native-stockfish
 ```
 
 ## Usage
@@ -13,7 +13,7 @@ npm install @loloof64/react-native-stockfish
 ```js
 import {
   useStockfish
-} from '@loloof64/react-native-stockfish';
+} from '@udaychauhan/react-native-stockfish';
 
 // ...
 

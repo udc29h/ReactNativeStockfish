@@ -1,1 +1,1 @@
-Example project for @loloof64/react-native-stockfish
+Example project for @udaychauhan/react-native-stockfish

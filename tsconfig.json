@@ -2,14 +2,18 @@
   "compilerOptions": {
     "rootDir": ".",
     "paths": {
-      "@loloof64/react-native-stockfish": ["./src/index"]
+      "@udaychauhan/react-native-stockfish": [
+        "./src/index"
+      ]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "jsx": "react-jsx",
-    "lib": ["ESNext"],
+    "lib": [
+      "ESNext"
+    ],
     "module": "ESNext",
     "moduleResolution": "Bundler",
     "noEmit": true,

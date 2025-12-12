@@ -7,7 +7,7 @@ import {
   StyleSheet,
 } from 'react-native';
 import { useEffect, useState, useCallback } from 'react';
-import { useStockfish } from '@loloof64/react-native-stockfish';
+import { useStockfish } from '@udaychauhan/react-native-stockfish';
 
 export default function App() {
   const [command, setCommand] = useState('');

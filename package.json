@@ -1,5 +1,5 @@
 {
-  "name": "@loloof64/react-native-stockfish",
+  "name": "@udaychauhan/react-native-stockfish",
   "version": "0.3.3",
   "description": "Use stockfish chess engine in your React Native application.",
   "main": "./lib/module/index.js",
@@ -56,7 +56,8 @@
   },
   "homepage": "https://github.com/loloof64/ReactNativeStockfish#readme",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^19.8.1",
@@ -106,25 +107,6 @@
     "extends": [
       "@commitlint/config-conventional"
     ]
-  },
-  "release-it": {
-    "git": {
-      "commitMessage": "chore: release ${version}",
-      "tagName": "v${version}"
-    },
-    "npm": {
-      "publish": true
-    },
-    "github": {
-      "release": true
-    },
-    "plugins": {
-      "@release-it/conventional-changelog": {
-        "preset": {
-          "name": "angular"
-        }
-      }
-    }
   },
   "prettier": {
     "quoteProps": "consistent",
